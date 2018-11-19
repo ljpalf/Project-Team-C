@@ -1,26 +1,38 @@
 <! DOCTYPE html>
+
 <html>
 <head>
-  <title> Hannah Louise LLoyd </title>
+  <title ID="title"> Hannah Louise LLoyd </title>
   <link rel ="stylesheet" type="text/CSS" href="website.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 <body>
+  <div class="topphoto">
+
+  <!-- add back to top button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Add font awesome icons -->
+  <a href="https://www.facebook.com/hannahlouiselloydmusic/" class="fa fa-facebook"></a>
+  <a href="https://soundcloud.com/hannahlouiselloyd" class="fa fa-soundcloud"></a>
+  <a href="https://www.instagram.com/hannah.louise.lloyd/?hl=en" class="fa fa-instagram"></a>
+  <a href="https://open.spotify.com/artist/5RNMUfebLRX4zCR3LBYxQs" class="fa fa-spotify"></a>
+  <a href="https://www.youtube.com/channel/UC18ZKPRU3hTZaRtMA2URdYA" class="fa fa-youtube"></a>
+  </div>
     <h1> Hannah Louise LLoyd </h1>
+
     <div class="navbar">
-      <a href="#home" class="navbar2">Home</a>
+
       <a href="#music" class="navbar2">Music</a>
       <a href="#tour" class="navbar2">Tour</a>
       <a href="#gallery" class="navbar2">Gallery</a>
+      <a href="#about" class="navbar2">About</a>
+
     </div>
 
-    <div class = "about">
-      <p>
-        Singer-Songwriter Hannah Louise pens open, honest songs for today’s world. Aiming to create songs that are relatable, yet uplifting, Hannah bases her songs on personal experiences, leaving nothing unsaid. Citing influences including Daughter and Lewis Watson, Hannah presents a clear individual identity through her blend of pop and indie rock which listeners find refreshing and comforting in times of disarray
-      </p>
-    </div>
-
-    <div class = "music">
+    <div ID="music" class = "music">
       <h2> Music </h2>
       <iframe width="420" height="315"
         src="https://www.youtube.com/embed/upNOBS6KevA?controls=0">
@@ -32,5 +44,42 @@
         src="https://www.youtube.com/embed/aJAh1JyEi3Y?controls=0">
       </iframe>
     </div>
+
+  <div ID="tour" class = "tour">
+    <h2> Tour </h2>
+  </div>
+
+  <div ID="gallery" class = "gallery">
+    <h2> Gallery </h2>
+  </div>
+    <img src="./tourdates.jpg" alt="tour dates">
+    <div ID="about" class = "about" style="text-align: center; padding: 0% 10% 0% 10%">
+            <h6>About</h6>
+            <p>Having recently performed at the Foundry supporting Paul Young and Yellow Arch Studios' reputable Cafe Sessions, Hannah Louise Lloyd is no stranger to the Sheffield live music scene. With smooth, harmonious vocals and poignant, mature songwriting, Hannah's performances are always guaranteed to leave you feeling moved.</p>
+            <p>Hannah is currently working on new music and hoping to release a new single before the end of 2018.</p>
+            <img src="hannah.jpg" class="img-center" style="padding: 20px 40px 15px 40px" alt="Hands_Icon">
+        </div>
+  </div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
 </body>
+
 </html>
