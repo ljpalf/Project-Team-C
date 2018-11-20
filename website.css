@@ -8,9 +8,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }}
-img{
+.logo{
   vertical-align: center
-  text-align:center;
+  display: block;
+text-align: -webkit-center;
 }
 .header {
   padding: 350px;
@@ -25,6 +26,8 @@ img{
 li {
     display: inline;
     padding: 0px 100px 0px 100px;
+    font-family: sans-serif;
+    font-style: normal;
 }
 
 .navbar-inverse {
