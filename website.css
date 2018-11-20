@@ -1,5 +1,6 @@
 
 body{
+
   .topphoto {
     min-height: 340px;
     width: 100%;
@@ -17,13 +18,18 @@ body{
     background-attachment: fixed;
 
 }
+li {
+    display: inline;
+    padding: 0px 100px 0px 100px;
+}
+
 
 .navbar-inverse {
-  background: black;
+  background: black;}
 
 }
 .music{
-  background-color: white;
+  background-color: #B0C4DE;
   color: black;
 }
 .fa {
