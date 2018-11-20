@@ -10,7 +10,7 @@ body{
 }}
 img{
   vertical-align: center
-  size: 50% 
+  text-align:center;
 }
 .header {
   padding: 350px;
