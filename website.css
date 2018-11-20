@@ -8,12 +8,16 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }}
+img{
+  vertical-align: center
+  size: 50% 
+}
 .header {
   padding: 350px;
   text-align: center;
   color: white;
   font-size: 30px;
-    background-image: url("hannah.jpg");
+    background-image: url("Untitled.jpg");
     background-size: cover;
     background-attachment: fixed;
 
@@ -22,7 +26,6 @@ li {
     display: inline;
     padding: 0px 100px 0px 100px;
 }
-
 
 .navbar-inverse {
   background: black;}
