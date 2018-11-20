@@ -6,14 +6,19 @@ body{
     background: url(hannah.jpg);
     background-size: cover;
     background-attachment: fixed;
-}
-
-
-}
-}
-h1{
+}}
+.header {
+  padding: 350px;
+  text-align: center;
   color: white;
+  font-size: 30px;
+    background-image: url("hannah.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+
+
 .navbar{
   background-color: black;
   text-decoration: none;
