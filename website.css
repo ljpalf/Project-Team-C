@@ -18,12 +18,9 @@ body{
 
 }
 
+.navbar-inverse {
+  background: black;
 
-
-.navbar{
-  background-color: black;
-  text-decoration: none;
-  color: white;
 }
 .music{
   background-color: white;
