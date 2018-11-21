@@ -20,8 +20,14 @@ body{
 
 .navbar-inverse {
   background: black;
-
 }
+
+.nav .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
 .music{
   background-color: white;
   color: black;
