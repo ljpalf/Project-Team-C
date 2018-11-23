@@ -1,5 +1,6 @@
 
 body{
+
   .topphoto {
     min-height: 340px;
     width: 100%;
@@ -7,15 +8,26 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }}
+.logo{
+  vertical-align: center
+  display: block;
+text-align: -webkit-center;
+}
 .header {
   padding: 350px;
   text-align: center;
   color: white;
   font-size: 30px;
-    background-image: url("hannah.jpg");
+    background-image: url("Untitled.jpg");
     background-size: cover;
     background-attachment: fixed;
 
+}
+li {
+    display: inline;
+    padding: 0px 100px 0px 100px;
+    font-family: sans-serif;
+    font-style: normal;
 }
 
 .navbar-inverse {
@@ -29,7 +41,7 @@ body{
 }
 
 .music{
-  background-color: white;
+  background-color: #B0C4DE;
   color: black;
 }
 .fa {
