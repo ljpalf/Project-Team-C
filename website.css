@@ -1,31 +1,31 @@
 
 body{
+  font-size: 100%
+}
 
-  .topphoto {
-    min-height: 340px;
-    width: 100%;
-    background: url(hannah.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}}
 .logo{
   vertical-align: center
   display: block;
 text-align: -webkit-center;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 .header {
-  padding: 350px;
   text-align: center;
-  padding: 0% 0% 0% 10%
+  padding: 300px;
   color: white;
   font-size: 30px;
     background-image: url("Untitled.jpg");
     background-size: cover;
     background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 
 }
 .music{
-  font-family: sans-serif;
+  font-family: "Amatic SC", "arial";
   font-style: normal;
   font-size: 30px;
 }
@@ -46,6 +46,16 @@ text-align: -webkit-center;
   font-size: 30px;
 }
 
+.paragraph{
+  font-size: 20px;
+  font-family: "Amatic SC", "arial";
+}
+
+.email{
+  font-family: "Amatic SC", "arial";
+  font-style: normal;
+  font-size: 15px;
+}
 li {
     display: inline;
     padding: 0px 100px 0px 100px;
@@ -63,10 +73,8 @@ li {
   vertical-align: top;
 }
 
-.music{
-  background-color: #B0C4DE;
-  color: black;
-}
+
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -132,6 +140,9 @@ li {
 .content {
     background-color: white;
     padding: 10px;
+}
+.container {
+  text-align: center;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
