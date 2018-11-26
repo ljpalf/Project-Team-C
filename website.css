@@ -70,15 +70,19 @@ li {
     font-family: sans-serif;
     padding: 0px 80px 0px 80px;
     font-style: normal;
-    font-size: 15px;
+    font-size: 16px;
 }
 .navbar-inverse {
   background: black;
 }
 
-#hannahnavbar {
-  text-align: center;
-  padding: 0% 10% 0% 10%;
+#hannahnavbar, #hannahnavbar ul {
+    width: 100%;
+}
+
+#hannahnavbar ul {
+    display: flex;
+    justify-content: center;
 }
 
 .nav .navbar-nav li {
