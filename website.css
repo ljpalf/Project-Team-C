@@ -65,22 +65,25 @@ text-align: -webkit-center;
   font-style: normal;
   font-size: 20px;
 }
-li {
-    display: inline-block;
-    padding: 0px 80px 0px 80px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-size: 12px;
-}
 
+li {
+    font-family: sans-serif;
+    padding: 0px 80px 0px 80px;
+    font-style: normal;
+    font-size: 15px;
+}
 .navbar-inverse {
   background: black;
 }
 
-.nav .navbar-nav {
-  display: inline-block;
+#hannahnavbar {
+  text-align: center;
+  padding: 0% 10% 0% 10%;
+}
+
+.nav .navbar-nav li {
   float: none;
-  vertical-align: top;
+  display: inline-block;
 }
 
 
