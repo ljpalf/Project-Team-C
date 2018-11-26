@@ -66,8 +66,8 @@ text-align: -webkit-center;
   font-size: 20px;
 }
 li {
-    display: inline;
-    padding: 0px 100px 0px 100px;
+    display: inline-block;
+    padding: 0px 80px 0px 80px;
     font-family: sans-serif;
     font-style: normal;
     font-size: 12px;
